@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:background="@color/back"
+
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/backg"
+
+            >
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar2"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        >
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="السن: "
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                ></TextView>
+
+
+
+            <TextView
+                android:id="@+id/weighttex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الوزن "
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+
+                ></TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="هل لديك أمراض مزمنة؟ "
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                ></TextView>
+            <TextView
+                android:id="@+id/q1"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                ></TextView>
+
+
+            <TextView
+                android:id="@+id/amlyat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="هل خضعت لعمليات جراحية من قبل؟ "
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/q2"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+
+                ></TextView>
+
+
+            <TextView
+                android:id="@+id/sens"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="هل لديك أي أنواع من الحساسية؟ "
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+
+                ></TextView>
+
+
+
+            <TextView
+                android:id="@+id/takedialy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="هل تأخذ أي أنواع من الأدوية بصفة دورية؟"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+
+                ></TextView>
+
+
+    </LinearLayout>
+
+
+        </LinearLayout>
+
+
+</ScrollView>

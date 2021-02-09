@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical"
+    tools:context=".help">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="موقعك  :"
+    android:textSize="20dp"
+    ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Location"
+        android:textSize="20dp"
+        android:id="@+id/location"
+        ></TextView>
+    <EditText
+        android:id="@+id/helpnum"
+        android:hint="رقم للمساعده"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/back"
+        android:background="@drawable/shape"
+        android:text="مساعدة"
+></Button>
+</LinearLayout>

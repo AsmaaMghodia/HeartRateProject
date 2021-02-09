@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#090F1F</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="fab_pressed">#546e7a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_white">#ffffff</color>
+<color name="mdtp_white">#ffffff</color>
+    <color name="btn_back">#073763</color>
+    <color name="back">#00090F</color>
+
+    <color name="white">#ffffff</color>
+</resources>

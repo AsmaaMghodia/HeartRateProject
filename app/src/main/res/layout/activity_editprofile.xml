@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Editprofile"
+    android:background="@color/back"
+
+    >
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/backg"
+
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <TextView
+        android:id="@+id/aget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="السن "
+        android:textSize="30dp"
+        android:textStyle="bold"
+></TextView>
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="السن"
+        ></EditText>
+
+
+    <TextView
+        android:id="@+id/weighttex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الوزن "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="الوزن"
+        ></EditText>
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="هل لديك أمراض مزمنة؟ "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        ></TextView>
+    <RadioGroup
+        android:id="@+id/mard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/yes1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نعم"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            >
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/no1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لا"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            ></RadioButton>
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="أذكرها"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        ></EditText>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="هل خضعت لعمليات جراحية من قبل؟ "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        ></TextView>
+    <RadioGroup
+        android:id="@+id/amlyat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/yes2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نعم"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            >
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/no2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لا"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            ></RadioButton>
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="أذكرها"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        ></EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="هل لديك أي أنواع من الحساسية؟ "
+        android:textSize="30dp"
+        android:textStyle="bold"
+        ></TextView>
+    <RadioGroup
+        android:id="@+id/sens"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/yes3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نعم"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            >
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/no3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لا"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            ></RadioButton>
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="أذكرها"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        ></EditText>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="هل تأخذ أي أنواع من الأدوية بصفة دورية؟"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+    <RadioGroup
+        android:id="@+id/takedialy"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/yes4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نعم"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            >
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/no4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لا"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            ></RadioButton>
+
+    </RadioGroup>
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="أذكرها"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        ></EditText>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="أضغط"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        ></Button>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
